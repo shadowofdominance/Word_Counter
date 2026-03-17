@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "QRegularExpression"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -20,7 +21,7 @@ void MainWindow::on_textEdit_textChanged()
 
     int characters = text.length();
 
-    QStringList words = text.split(" ", Qt::SkipEmptyParts);
+    QStringList words = text.split(QRegularExpression("\\s+"), Qt::SkipEmptyParts);
     int wordCount = words.count();
 
     ui->WordsLabel->setText("Words: " + QString::number(wordCount));

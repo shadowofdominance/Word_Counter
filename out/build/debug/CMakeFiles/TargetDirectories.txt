@@ -1,0 +1,8 @@
+C:/Users/acd07/Documents/QT_Projects/Word_Counter/out/build/debug/CMakeFiles/Word_Counter.dir
+C:/Users/acd07/Documents/QT_Projects/Word_Counter/out/build/debug/CMakeFiles/edit_cache.dir
+C:/Users/acd07/Documents/QT_Projects/Word_Counter/out/build/debug/CMakeFiles/rebuild_cache.dir
+C:/Users/acd07/Documents/QT_Projects/Word_Counter/out/build/debug/CMakeFiles/list_install_components.dir
+C:/Users/acd07/Documents/QT_Projects/Word_Counter/out/build/debug/CMakeFiles/install.dir
+C:/Users/acd07/Documents/QT_Projects/Word_Counter/out/build/debug/CMakeFiles/install/local.dir
+C:/Users/acd07/Documents/QT_Projects/Word_Counter/out/build/debug/CMakeFiles/Word_Counter_autogen_timestamp_deps.dir
+C:/Users/acd07/Documents/QT_Projects/Word_Counter/out/build/debug/CMakeFiles/Word_Counter_autogen.dir

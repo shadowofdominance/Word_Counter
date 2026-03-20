@@ -14,7 +14,6 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
 void MainWindow::on_textEdit_textChanged()
 {
     QString text = ui->textEdit->toPlainText();
@@ -24,6 +23,17 @@ void MainWindow::on_textEdit_textChanged()
     QStringList words = text.split(QRegularExpression("\\s+"), Qt::SkipEmptyParts);
     int wordCount = words.count();
 
+    QStringList sentences = text.split(QRegularExpression("[.!?]+"), Qt::SkipEmptyParts);
+    int sentenceCount = sentences.count();
+
+
     ui->WordsLabel->setText("Words: " + QString::number(wordCount));
     ui->CharactersLabel->setText("Characters " + QString::number(characters));
+    ui->SentencesLabel->setText("Sentences: " + QString::number(sentenceCount));
 }
+
+void MainWindow::on_ClearButton_clicked()
+{
+    ui->textEdit->clear();
+}
+

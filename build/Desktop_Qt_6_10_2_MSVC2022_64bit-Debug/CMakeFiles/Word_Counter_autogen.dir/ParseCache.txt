@@ -220,6 +220,6 @@ C:/Users/acd07/Documents/QT_Projects/Word_Counter/mainwindow.h
  mdp:C:/Qt/6.10.2/msvc2022_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:C:/Qt/6.10.2/msvc2022_64/include/QtWidgets/qwidget.h
  mdp:C:/Users/acd07/Documents/QT_Projects/Word_Counter/mainwindow.h
-C:/Users/acd07/Documents/QT_Projects/Word_Counter/main.cpp
 C:/Users/acd07/Documents/QT_Projects/Word_Counter/mainwindow.cpp
  uic:ui_mainwindow.h
+C:/Users/acd07/Documents/QT_Projects/Word_Counter/main.cpp

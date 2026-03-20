@@ -20,6 +20,8 @@ public:
 private slots:
     void on_textEdit_textChanged();
 
+    void on_ClearButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

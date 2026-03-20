@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>519</width>
-    <height>321</height>
+    <width>617</width>
+    <height>342</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -34,7 +34,21 @@
         </property>
        </widget>
       </item>
+      <item>
+       <widget class="QLabel" name="SentencesLabel">
+        <property name="text">
+         <string>Sentences:</string>
+        </property>
+       </widget>
+      </item>
      </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ClearButton">
+      <property name="text">
+       <string>Clear All</string>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>

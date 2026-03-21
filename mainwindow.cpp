@@ -37,3 +37,24 @@ void MainWindow::on_ClearButton_clicked()
     ui->textEdit->clear();
 }
 
+void MainWindow::on_SearchBoxLineEdit_returnPressed()
+{
+    QString text = ui->textEdit->toPlainText();
+    QString searchWord = ui->SearchBoxLineEdit->text();
+
+    text = text.toLower();
+    searchWord = searchWord.toLower();
+
+    QStringList words = text.split(QRegularExpression("\\s+"), Qt::SkipEmptyParts);
+
+    int count = 0;
+
+    for(const QString &word : words){
+        if(word == searchWord){
+            count++;
+        }
+    }
+
+    ui->FrequencyLabel->setText("Occurrences: " + QString::number(count));
+}
+

@@ -22,6 +22,8 @@ private slots:
 
     void on_ClearButton_clicked();
 
+    void on_SearchBoxLineEdit_returnPressed();
+
 private:
     Ui::MainWindow *ui;
 };

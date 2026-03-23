@@ -24,6 +24,10 @@ private slots:
 
     void on_SearchBoxLineEdit_returnPressed();
 
+    void on_LowerCaseButton_clicked();
+
+    void on_UpperCaseButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

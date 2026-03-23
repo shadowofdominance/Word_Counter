@@ -58,3 +58,27 @@ void MainWindow::on_SearchBoxLineEdit_returnPressed()
     ui->FrequencyLabel->setText("Occurrences: " + QString::number(count));
 }
 
+
+void MainWindow::on_LowerCaseButton_clicked()
+{
+    QTextCursor cursor = ui->textEdit->textCursor();
+
+    if(cursor.hasSelection()){
+        QString text = cursor.selectedText();
+        text = text.toLower();
+        cursor.insertText(text);
+    }
+}
+
+
+void MainWindow::on_UpperCaseButton_clicked()
+{
+    QTextCursor cursor = ui->textEdit->textCursor();
+
+    if(cursor.hasSelection()){
+        QString text = cursor.selectedText();
+        text = text.toUpper();
+        cursor.insertText(text);
+    }
+}
+

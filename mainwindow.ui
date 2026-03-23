@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>639</width>
-    <height>376</height>
+    <width>723</width>
+    <height>475</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -76,11 +76,29 @@
      </layout>
     </item>
     <item>
-     <widget class="QPushButton" name="ClearButton">
-      <property name="text">
-       <string>Clear All</string>
-      </property>
-     </widget>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="LowerCaseButton">
+        <property name="text">
+         <string>LowerCase</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="UpperCaseButton">
+        <property name="text">
+         <string>UpperCase</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="ClearButton">
+        <property name="text">
+         <string>Clear All</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </item>
    </layout>
   </widget>
